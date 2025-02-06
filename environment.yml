@@ -1,0 +1,20 @@
+name: econ-research
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - r-base
+  - r-tidyverse
+  - r-forecast
+  - pip:
+    - pmdarima
